@@ -1,0 +1,122 @@
+@media screen and (max-width:1180px){
+    .logo{
+        font-size: 20px;
+    }
+    header ul li{
+        font-size: 14px;
+    }
+    .logo img {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    section{
+        padding: 100px 40px;
+    }
+    .bannerSectionForm{
+        max-width: 90%;
+    }
+}   
+
+@media screen and (max-width: 920px){
+    .navLinks{
+        display: none;
+    }
+    header{
+        justify-content: center;
+    }
+    section {
+        padding: 50px 15px;
+    }
+    .bannerSection::after, .bannerSection::before{
+        display: none;
+    }
+    .bannerSection{
+        height: auto;
+    }
+    .bannerSection h3{
+        max-width: 100% !important;
+    }
+    .bannerSection p{
+        max-width: 100%;
+    }
+    .travelSection .container img{
+        width: 100%;
+    }
+    .clientSection img{
+        width: 100%;
+        position: relative !important;
+        top: auto;
+        bottom: auto !important;
+        right: auto !important;
+    }
+    .bannerSectionForm{
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        max-width: 100%;
+    }
+    .formGroup:nth-child(3) {
+        width: 100%;
+    }
+    .formGroup:nth-child(4) {
+        width: 100%;
+    }
+    .formGroup:nth-child(3) .arrowDiv, .formGroup:nth-child(4) .arrowDiv{
+        max-width: 100%;
+    }
+    .formGroup{
+        margin: 10px 0px;
+    }
+    .travelSection .container{
+        flex-direction: column;
+        align-items:  flex-start !important;
+    }
+    .button{
+        margin-bottom: 20px;
+    }
+    .clientSection{
+        flex-direction: column;
+    }
+    .clientSection .contentMaxSize{
+        max-width: 100% !important;
+    }
+    .countySection{
+        height: auto !important;
+    }
+    .countySection .container{
+        flex-direction: column;
+    }
+    .countySection .country{
+        flex-basis: 100% !important;
+    }
+    .countySection .country img{
+        min-width: 100%;
+    }
+    .countySection .content{
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        max-width: 100% !important;
+        margin: 20px 0px !important;
+    }
+    .testimonialSection .container{
+        flex-direction: column;
+    }
+    .mailSection h3{
+        max-width: 100% !important;
+    }
+    .topFooter{
+        flex-direction: column;
+    }
+    .footerSec{
+        flex-basis: 100% !important;
+        margin: 0px;
+        display: block;
+    }
+    footer > p{
+        text-align: left;
+        margin-top: 20px;
+    }
+}

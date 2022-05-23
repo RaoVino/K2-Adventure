@@ -1,0 +1,46 @@
+footer{
+    background: var(--primaryColor);
+    padding:30px 20px;
+}
+
+.topFooter{
+    display: flex;
+
+}
+
+.footerSec{
+    display: flex;
+    flex-basis: auto;
+    margin: 0px 40px;
+}
+.footerSec img{
+    max-width: 100px;
+    object-fit: contain;
+    margin-right: 50px;
+}
+
+.linksPart h3, .linksPart p{
+    color: var(--white);
+    font-size: 28px;
+}
+.linksPart p{
+    font-size: 14px;
+}
+
+.linksPart ul li{
+    color: var(--white);
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.footerSec:first-child{
+    flex-basis: 40%;
+}
+
+footer > p{
+    text-align: right;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
